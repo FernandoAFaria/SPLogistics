@@ -6,7 +6,6 @@ body {
 }
 
 .nav {
-    
     display: flex;
     height: 100vh;
     width: auto;
@@ -42,19 +41,13 @@ body {
     transition-duration: 1.5s;
     transition-property: color;
     content: "Transportation done right.";
-    
 }
-
 
 .introtxt h3:hover {
     color: rgb(56, 59, 255);
     background: white;
     border: 1px solid black;
-    
 }
-
-
-
 
 .logo {
     padding-left: 50px;
@@ -131,7 +124,6 @@ nav {
 }
 
 .services {
-    
     background: white;
 }
 
@@ -173,8 +165,4 @@ nav {
     color: red;
     font-size: 1.3em;
 }
-.serviceArea{
-    height: 600px;
-    background: #eee;
-    margin-top: -20px;
-}
+
