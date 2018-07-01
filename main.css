@@ -131,7 +131,7 @@ nav {
 }
 
 .services {
-    height: 600px;
+    
     background: white;
 }
 
@@ -172,4 +172,9 @@ nav {
     height: 90%;
     color: red;
     font-size: 1.3em;
+}
+.serviceArea{
+    height: 600px;
+    background: #eee;
+    margin-top: -20px;
 }
