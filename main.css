@@ -1,8 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
     line-height: 1.8;
+}
+h1 h2 h3{
+    text-transform: uppercase;
 }
 
 .nav {
@@ -20,15 +24,16 @@ body {
 
 .bar {
     background-color: rgb(255, 255, 255, 0.7);
-    height: 88px;
+    height: 80px;
     width: 100%;
     position: fixed;
     top: 0;
+    border-bottom: 5px solid darkblue;
 }
 
 .introtxt {
     position: absolute;
-    padding-bottom: 500px;
+    padding-bottom: 400px;
 }
 
 .introtxt h3 {
@@ -51,7 +56,7 @@ body {
 
 .logo {
     padding-left: 50px;
-    padding-top: 15px;
+    padding-top: 10px;
     z-index: 99;
 }
 
@@ -64,7 +69,7 @@ body {
 }
 
 .logo img {
-    height: 65px;
+    height: 82px;
     width: auto;
 }
 
@@ -75,10 +80,10 @@ ul li {
 }
 
 li a {
-    font-size: 18px;
+    font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
-    color: red;
+    color: black;
 }
 
 li a:hover {
@@ -90,7 +95,7 @@ nav {
 }
 
 .links {
-    padding-top: 40px;
+    padding-top: 20px;
     position: fixed;
     top: 0px;
     width: 100%;
@@ -123,9 +128,6 @@ nav {
     height: auto;
 }
 
-.services {
-    background: white;
-}
 
 .wrapper {
     display: flex;
@@ -159,10 +161,58 @@ nav {
     align-content: center;
     text-align: center;
     overflow: hidden;
-    flex-basis: 25%;
-    box-shadow: 0px 0px 20px white;
-    height: 90%;
+    flex-basis: 27%;
+   /* box-shadow: 5px 0px 20px black;*/
+    height: 93%;
     color: red;
     font-size: 1.3em;
 }
+.minishowcase img{
+    box-shadow: 5px 0px 30px black;
+                
+}
 
+#aboutservices{
+    text-align: center;
+    height: 250px;
+    padding: 65px 80px 0px 80px;
+    background: black;
+    color: white;
+}
+
+.sameday{
+    width: 100%;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+}
+.samedayinfo{
+    background: white;
+    flex-basis: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.samedayimg{
+    background: url("./imgs/shipping_box.jpg")no-repeat;
+    flex-basis: 50%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 240px;
+    color: white;
+    background-attachment: fixed;
+    
+}
+
+.samedayimg h3{
+    border: 1px solid rgb(55, 0, 255);
+    border-radius: 5px;
+    width: 225px;
+    margin: auto;
+    font-weight: bold;
+}
+.floridaMap{
+    height: 400px;
+    width: auto;
+}
