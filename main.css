@@ -60,13 +60,13 @@ h1 h2 h3{
     z-index: 99;
 }
 
-.logo h2 {
+/* .logo h2 {
     padding-top: 25px;
     padding-left: 25px;
     color: white;
     font-weight: bold;
     font-size: 22px;
-}
+} */
 
 .logo img {
     height: 82px;
@@ -99,6 +99,7 @@ nav {
     position: fixed;
     top: 0px;
     width: 100%;
+    
 }
 
 .aboutus {
@@ -215,4 +216,30 @@ nav {
 .floridaMap{
     height: 400px;
     width: auto;
+}
+@media(max-width: 1400px){
+.bar .logo img{
+    margin-top: 5px;
+    width: auto;
+    height: 52px;
+}
+}
+
+
+
+
+@media(max-width: 1024px){
+    .bar .logo img{
+        display: none;
+    }
+    li a{
+        font-size: 1em;
+    }
+    ul li{
+        margin-right: 20px;
+        
+        
+    }
+    .links{padding-top: 0;}
+    ul{margin-right: 35px;}
 }
