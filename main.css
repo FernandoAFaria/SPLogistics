@@ -21,6 +21,33 @@ h1 h2 h3{
     justify-content: center;
     align-items: flex-end;
 }
+.nav-login {
+    display: flex;
+    height: 100vh;
+    width: auto;
+    background: #666;
+    z-index: -2;
+    justify-content: center;
+    align-items: flex-end;
+}
+.loginform{
+    font-size: 1.3em;
+}
+.loginform input{
+    
+}
+.btn{
+    float: center;
+    width: 280px;
+    background: white;
+    border-radius: 10px;
+}
+.btn:hover{
+    background: black;
+    color: white;
+    font-weight: bold;
+}
+
 
 .bar {
     background-color: rgb(255, 255, 255, 0.7);
